@@ -1,5 +1,5 @@
 data "aws_vpc" "default" {
-    defult = true
+    default = true
 }
 
 resource "aws_security_group" "blog" {
